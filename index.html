@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="page-shell">
+      <header class="header">
+        <nav class="navbar" aria-label="Primary navigation">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="hero" id="home">
+          <div class="introduction">
+            <h1 class="eyebrow">I am Izo</h1>
+            <h2 class="headline">
+              1st year College Bachelor in Information Technology at STI College
+              Dasmariñas
+            </h2>
+
+            <p>
+              I'm an aspiring UI/UX Designer and Web Developer passionate about
+              learning new technologies and creating modern, responsive, and
+              user-friendly websites. I enjoy turning ideas into clean and
+              interactive digital experiences.
+            </p>
+
+            <div class="socials" aria-label="Social links">
+              <a
+                href="https://www.linkedin.com/in/rain-fortaliza-9b97213b9/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a
+                href="https://github.com/zei-hwi"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fab fa-github"></i>
+              </a>
+              <a
+                href="https://leetcode.com/u/zei-hwi/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i class="fas fa-code"></i>
+              </a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <section class="about" id="about">
+        <div class="section-heading">
+          <h2>About me</h2>
+        </div>
+
+        <div class="about-layout">
+          <article class="about-card about-copy">
+            <h3></h3>
+            <p>
+              I am a 1st year College Bachelor in Information Technology student
+              at STI College Dasmariñas. I am passionate about learning new
+              technologies and creating modern, responsive, and user-friendly
+              websites. I enjoy turning ideas into clean and interactive digital
+              experiences.
+            </p>
+          </article>
+
+          <article class="about-card">
+            <ul class="about-list">
+              <li>Poetry</li>
+              <li>Scriptwriter</li>
+              <li>Graphic Designer</li>
+              <li>Video Editor</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="section-heading">
+          <h2>Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Programming Skills</h3>
+            <div class="skill-tags">
+              <span placeholder="Intermediate">HTML</span>
+              <span placeholder="Intermediate">CSS</span>
+              <span placeholder="Intermediate">JavaScript</span>
+              <span placeholder="Intermediate">Python</span>
+              <span placeholder="Intermediate">Java</span>
+              <span placeholder="Intermediate">JQuery</span>
+              <span placeholder="Intermediate">C#</span>
+              <span placeholder="Intermediate">Android Studio</span>
+              <span placeholder="Intermediate">MySQL</span>
+              <span placeholder="Intermediate">.NET Maui</span>
+            </div>
+          </article>
+
+          <article class="skill-card">
+            <h3>Design Tools</h3>
+            <div class="skill-tags">
+              <span placeholder="Advanced">Canva</span>
+              <span placeholder="Intermediate">Figma</span>
+              <span placeholder="Intermediate">Adobe Photoshop</span>
+              <span placeholder="Intermediate">Adobe Premier Pro</span>
+              <span placeholder="Intermediate">DaVinci Resolve</span>
+              <span placeholder="Advanced">CapCut</span>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-overlay" id="unavailableModal" aria-hidden="true">
+      <div
+        class="modal-card"
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="unavailableTitle"
+        aria-describedby="unavailableMessage"
+      >
+        <p class="modal-title" id="unavailableTitle">Notification</p>
+        <p class="modal-message" id="unavailableMessage">
+          This feature is not available yet.
+        </p>
+        <div class="modal-actions">
+          <button type="button" class="modal-button" id="closeUnavailableModal">
+            OK
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
